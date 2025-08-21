@@ -1,0 +1,115 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+.phone-case {
+  width: 200px;
+}
+
+figcaption {
+  font-size: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+}
+.home-goods {
+  overflow: hidden;
+  display: flex; justify-content:space-around;
+}
+.personal-accessories {
+  overflow: hidden;
+  display: flex; justify-content:space-around;
+}
+.car-accessories {
+  overflow: hidden;
+  display: flex; justify-content:space-around;
+}
+@media screen {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.item {
+  flex: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  z-index: 1000;
+}
+
+nav {
+  background-color: #333;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border
+}
+header img {
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 80px;
+  width: 80px;
+  z-index: 9999;
+}
+
+header {
+  position: relative;
+  padding: 30px;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+}
